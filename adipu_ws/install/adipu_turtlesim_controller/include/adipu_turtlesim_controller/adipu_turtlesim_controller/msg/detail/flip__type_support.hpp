@@ -1,1 +1,0 @@
-/root/adipu_ws/build/adipu_turtlesim_controller/rosidl_generator_cpp/adipu_turtlesim_controller/msg/detail/flip__type_support.hpp

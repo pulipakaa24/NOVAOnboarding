@@ -1,1 +1,0 @@
-/root/adipu_ws/build/adipu_turtlesim_controller/rosidl_generator_py/adipu_turtlesim_controller/__init__.py

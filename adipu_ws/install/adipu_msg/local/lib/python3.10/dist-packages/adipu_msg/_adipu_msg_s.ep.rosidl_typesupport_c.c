@@ -1,1 +1,0 @@
-/root/adipu_ws/build/adipu_msg/rosidl_generator_py/adipu_msg/_adipu_msg_s.ep.rosidl_typesupport_c.c

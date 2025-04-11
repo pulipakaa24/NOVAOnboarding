@@ -1,1 +1,0 @@
-/root/adipu_ws/build/adipu_msg/rosidl_generator_c/adipu_msg/msg/detail/flip__struct.h

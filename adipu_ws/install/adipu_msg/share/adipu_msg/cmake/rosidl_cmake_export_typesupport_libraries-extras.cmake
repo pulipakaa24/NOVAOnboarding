@@ -1,1 +1,0 @@
-/root/adipu_ws/build/adipu_msg/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

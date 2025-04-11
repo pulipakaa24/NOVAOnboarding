@@ -1,1 +1,0 @@
-/root/adipu_ws/build/adipu_turtlesim_controller/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake

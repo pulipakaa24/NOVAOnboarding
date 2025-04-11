@@ -1,1 +1,0 @@
-/root/adipu_ws/src/adipu_msg/msg/Flip.msg

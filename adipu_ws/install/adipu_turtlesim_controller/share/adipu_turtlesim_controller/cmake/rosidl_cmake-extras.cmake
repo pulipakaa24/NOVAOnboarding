@@ -1,1 +1,0 @@
-/root/adipu_ws/build/adipu_turtlesim_controller/rosidl_cmake/rosidl_cmake-extras.cmake
