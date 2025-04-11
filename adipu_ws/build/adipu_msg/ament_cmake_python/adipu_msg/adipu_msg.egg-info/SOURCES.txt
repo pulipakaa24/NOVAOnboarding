@@ -1,0 +1,8 @@
+setup.py
+adipu_msg/__init__.py
+adipu_msg.egg-info/PKG-INFO
+adipu_msg.egg-info/SOURCES.txt
+adipu_msg.egg-info/dependency_links.txt
+adipu_msg.egg-info/top_level.txt
+adipu_msg/msg/__init__.py
+adipu_msg/msg/_flip.py

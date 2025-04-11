@@ -1,0 +1,1 @@
+/root/adipu_ws/build/adipu_turtlesim_controller/rosidl_generator_py/adipu_turtlesim_controller/_adipu_turtlesim_controller_s.ep.rosidl_typesupport_introspection_c.c

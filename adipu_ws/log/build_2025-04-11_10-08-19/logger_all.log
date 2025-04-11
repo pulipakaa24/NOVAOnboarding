@@ -1,0 +1,123 @@
+[0.268s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.268s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa12602b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa122f8b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa122f8b0>>, mixin_verb=('build',))
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.613s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/adipu_ws'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/adipu_turtlesim_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/adipu_turtlesim_controller) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/adipu_turtlesim_controller) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/adipu_turtlesim_controller) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/adipu_turtlesim_controller) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/adipu_turtlesim_controller) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/adipu_turtlesim_controller) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/adipu_turtlesim_controller) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/adipu_turtlesim_controller) by extension 'ros'
+[0.628s] DEBUG:colcon.colcon_core.package_identification:Package 'src/adipu_turtlesim_controller' with type 'ros.ament_cmake' and name 'adipu_turtlesim_controller'
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.745s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /root/adipu_ws/install
+[0.765s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 347 installed packages in /root/ros2_humble/install
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'adipu_turtlesim_controller' build argument 'cmake_args' from command line to 'None'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'adipu_turtlesim_controller' build argument 'cmake_target' from command line to 'None'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'adipu_turtlesim_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'adipu_turtlesim_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'adipu_turtlesim_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'adipu_turtlesim_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'adipu_turtlesim_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'adipu_turtlesim_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'adipu_turtlesim_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.895s] DEBUG:colcon.colcon_core.verb:Building package 'adipu_turtlesim_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/adipu_ws/build/adipu_turtlesim_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/adipu_ws/install/adipu_turtlesim_controller', 'merge_install': False, 'path': '/root/adipu_ws/src/adipu_turtlesim_controller', 'symlink_install': True, 'test_result_base': None}
+[0.895s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.896s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/adipu_ws/src/adipu_turtlesim_controller' with build type 'ament_cmake'
+[0.896s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/adipu_ws/src/adipu_turtlesim_controller'
+[0.901s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/adipu_ws/build/adipu_turtlesim_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/adipu_ws/install/adipu_turtlesim_controller:/root/ros2_humble/install/rqt_bag_plugins:/root/ros2_humble/install/rqt_bag:/root/ros2_humble/install/launch_testing_examples:/root/ros2_humble/install/ros2bag:/root/ros2_humble/install/tracetools_test:/root/ros2_humble/install/tracetools_launch:/root/ros2_humble/install/topic_monitor:/root/ros2_humble/install/tf2_tools:/root/ros2_humble/install/examples_tf2_py:/root/ros2_humble/install/tf2_ros_py:/root/ros2_humble/install/sros2:/root/ros2_humble/install/rqt_topic:/root/ros2_humble/install/rqt_srv:/root/ros2_humble/install/rqt_shell:/root/ros2_humble/install/rqt_service_caller:/root/ros2_humble/install/rqt_reconfigure:/root/ros2_humble/install/rqt_py_console:/root/ros2_humble/install/rqt_publisher:/root/ros2_humble/install/rqt_plot:/root/ros2_humble/install/rqt_action:/root/ros2_humble/install/rqt_msg:/root/ros2_humble/install/rqt_console:/root/ros2_humble/install/rqt:/root/ros2_humble/install/rqt_graph:/root/ros2_humble/install/rqt_gui_py:/root/ros2_humble/install/rqt_gui:/root/ros2_humble/install/ros2trace:/root/ros2_humble/install/ros2topic:/root/ros2_humble/install/ros2test:/root/ros2_humble/install/ros2component:/root/ros2_humble/install/ros2param:/root/ros2_humble/install/ros2lifecycle:/root/ros2_humble/install/ros2service:/root/ros2_humble/install/ros2run:/root/ros2_humble/install/ros2launch:/root/ros2_humble/install/ros2pkg:/root/ros2_humble/install/ros2node:/root/ros2_humble/install/ros2multicast:/root/ros2_humble/install/ros2interface:/root/ros2_humble/install/ros2doctor:/root/ros2_humble/install/ros2action:/root/ros2_humble/install/ros2cli:/root/ros2_humble/install/quality_of_service_demo_py:/root/ros2_humble/install/lifecycle_py:/root/ros2_humble/install/launch_testing_ros:/root/ros2_humble/install/launch_ros:/root/ros2_humble/install/examples_rclpy_pointcloud_publisher:/root/ros2_humble/install/examples_rclpy_minimal_subscriber:/root/ros2_humble/install/examples_rclpy_minimal_service:/root/ros2_humble/install/examples_rclpy_minimal_publisher:/root/ros2_humble/install/examples_rclpy_minimal_client:/root/ros2_humble/install/examples_rclpy_minimal_action_server:/root/ros2_humble/install/examples_rclpy_minimal_action_client:/root/ros2_humble/install/examples_rclpy_guard_conditions:/root/ros2_humble/install/examples_rclpy_executors:/root/ros2_humble/install/demo_nodes_py:/root/ros2_humble/install/camera_info_manager_py:/root/ros2_humble/install/adipu_turtlesim_controller:/root/ros2_humble/install/action_tutorials_py:/root/ros2_humble/install/ament_uncrustify:/root/ros2_humble/install/tracetools_trace:/root/ros2_humble/install/tracetools_read:/root/ros2_humble/install/test_tracetools_launch:/root/ros2_humble/install/test_launch_ros:/root/ros2_humble/install/sensor_msgs_py:/root/ros2_humble/install/rpyutils:/root/ros2_humble/install/rosidl_runtime_py:/root/ros2_humble/install/rosidl_cli:/root/ros2_humble/install/launch_pytest:/root/ros2_humble/install/launch_testing:/root/ros2_humble/install/launch_yaml:/root/ros2_humble/install/launch_xml:/root/ros2_humble/install/launch:/root/ros2_humble/install/osrf_pycommon:/root/ros2_humble/install/domain_coordinator:/root/ros2_humble/install/ament_xmllint:/root/ros2_humble/install/ament_pyflakes:/root/ros2_humble/install/ament_pycodestyle:/root/ros2_humble/install/ament_pep257:/root/ros2_humble/install/ament_pclint:/root/ros2_humble/install/ament_package:/root/ros2_humble/install/ament_mypy:/root/ros2_humble/install/ament_lint_cmake:/root/ros2_humble/install/ament_flake8:/root/ros2_humble/install/ament_copyright:/root/ros2_humble/install/ament_lint:/root/ros2_humble/install/ament_index_python:/root/ros2_humble/install/ament_cpplint:/root/ros2_humble/install/ament_cppcheck:/root/ros2_humble/install/ament_clang_tidy:/root/ros2_humble/install/ament_clang_format /usr/bin/cmake /root/adipu_ws/src/adipu_turtlesim_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/adipu_ws/install/adipu_turtlesim_controller
+[29.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/adipu_ws/build/adipu_turtlesim_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/adipu_ws/install/adipu_turtlesim_controller:/root/ros2_humble/install/rqt_bag_plugins:/root/ros2_humble/install/rqt_bag:/root/ros2_humble/install/launch_testing_examples:/root/ros2_humble/install/ros2bag:/root/ros2_humble/install/tracetools_test:/root/ros2_humble/install/tracetools_launch:/root/ros2_humble/install/topic_monitor:/root/ros2_humble/install/tf2_tools:/root/ros2_humble/install/examples_tf2_py:/root/ros2_humble/install/tf2_ros_py:/root/ros2_humble/install/sros2:/root/ros2_humble/install/rqt_topic:/root/ros2_humble/install/rqt_srv:/root/ros2_humble/install/rqt_shell:/root/ros2_humble/install/rqt_service_caller:/root/ros2_humble/install/rqt_reconfigure:/root/ros2_humble/install/rqt_py_console:/root/ros2_humble/install/rqt_publisher:/root/ros2_humble/install/rqt_plot:/root/ros2_humble/install/rqt_action:/root/ros2_humble/install/rqt_msg:/root/ros2_humble/install/rqt_console:/root/ros2_humble/install/rqt:/root/ros2_humble/install/rqt_graph:/root/ros2_humble/install/rqt_gui_py:/root/ros2_humble/install/rqt_gui:/root/ros2_humble/install/ros2trace:/root/ros2_humble/install/ros2topic:/root/ros2_humble/install/ros2test:/root/ros2_humble/install/ros2component:/root/ros2_humble/install/ros2param:/root/ros2_humble/install/ros2lifecycle:/root/ros2_humble/install/ros2service:/root/ros2_humble/install/ros2run:/root/ros2_humble/install/ros2launch:/root/ros2_humble/install/ros2pkg:/root/ros2_humble/install/ros2node:/root/ros2_humble/install/ros2multicast:/root/ros2_humble/install/ros2interface:/root/ros2_humble/install/ros2doctor:/root/ros2_humble/install/ros2action:/root/ros2_humble/install/ros2cli:/root/ros2_humble/install/quality_of_service_demo_py:/root/ros2_humble/install/lifecycle_py:/root/ros2_humble/install/launch_testing_ros:/root/ros2_humble/install/launch_ros:/root/ros2_humble/install/examples_rclpy_pointcloud_publisher:/root/ros2_humble/install/examples_rclpy_minimal_subscriber:/root/ros2_humble/install/examples_rclpy_minimal_service:/root/ros2_humble/install/examples_rclpy_minimal_publisher:/root/ros2_humble/install/examples_rclpy_minimal_client:/root/ros2_humble/install/examples_rclpy_minimal_action_server:/root/ros2_humble/install/examples_rclpy_minimal_action_client:/root/ros2_humble/install/examples_rclpy_guard_conditions:/root/ros2_humble/install/examples_rclpy_executors:/root/ros2_humble/install/demo_nodes_py:/root/ros2_humble/install/camera_info_manager_py:/root/ros2_humble/install/adipu_turtlesim_controller:/root/ros2_humble/install/action_tutorials_py:/root/ros2_humble/install/ament_uncrustify:/root/ros2_humble/install/tracetools_trace:/root/ros2_humble/install/tracetools_read:/root/ros2_humble/install/test_tracetools_launch:/root/ros2_humble/install/test_launch_ros:/root/ros2_humble/install/sensor_msgs_py:/root/ros2_humble/install/rpyutils:/root/ros2_humble/install/rosidl_runtime_py:/root/ros2_humble/install/rosidl_cli:/root/ros2_humble/install/launch_pytest:/root/ros2_humble/install/launch_testing:/root/ros2_humble/install/launch_yaml:/root/ros2_humble/install/launch_xml:/root/ros2_humble/install/launch:/root/ros2_humble/install/osrf_pycommon:/root/ros2_humble/install/domain_coordinator:/root/ros2_humble/install/ament_xmllint:/root/ros2_humble/install/ament_pyflakes:/root/ros2_humble/install/ament_pycodestyle:/root/ros2_humble/install/ament_pep257:/root/ros2_humble/install/ament_pclint:/root/ros2_humble/install/ament_package:/root/ros2_humble/install/ament_mypy:/root/ros2_humble/install/ament_lint_cmake:/root/ros2_humble/install/ament_flake8:/root/ros2_humble/install/ament_copyright:/root/ros2_humble/install/ament_lint:/root/ros2_humble/install/ament_index_python:/root/ros2_humble/install/ament_cpplint:/root/ros2_humble/install/ament_cppcheck:/root/ros2_humble/install/ament_clang_tidy:/root/ros2_humble/install/ament_clang_format /usr/bin/cmake /root/adipu_ws/src/adipu_turtlesim_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/adipu_ws/install/adipu_turtlesim_controller
+[29.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(adipu_turtlesim_controller)
+[29.450s] Level 1:colcon.colcon_core.environment:checking '/root/adipu_ws/install/adipu_turtlesim_controller' for CMake module files
+[29.453s] Level 1:colcon.colcon_core.environment:checking '/root/adipu_ws/install/adipu_turtlesim_controller' for CMake config files
+[29.456s] Level 1:colcon.colcon_core.environment:checking '/root/adipu_ws/install/adipu_turtlesim_controller/lib'
+[29.457s] Level 1:colcon.colcon_core.environment:checking '/root/adipu_ws/install/adipu_turtlesim_controller/bin'
+[29.457s] Level 1:colcon.colcon_core.environment:checking '/root/adipu_ws/install/adipu_turtlesim_controller/lib/pkgconfig/adipu_turtlesim_controller.pc'
+[29.461s] Level 1:colcon.colcon_core.environment:checking '/root/adipu_ws/install/adipu_turtlesim_controller/lib/python3.10/site-packages'
+[29.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('adipu_turtlesim_controller', 'pythonpath')
+[29.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/hook/pythonpath.ps1'
+[29.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/hook/pythonpath.dsv'
+[29.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/hook/pythonpath.sh'
+[29.465s] Level 1:colcon.colcon_core.environment:checking '/root/adipu_ws/install/adipu_turtlesim_controller/bin'
+[29.465s] INFO:colcon.colcon_core.shell:Creating package script '/root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/package.ps1'
+[29.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/package.dsv'
+[29.466s] INFO:colcon.colcon_core.shell:Creating package script '/root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/package.sh'
+[29.467s] INFO:colcon.colcon_core.shell:Creating package script '/root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/package.bash'
+[29.468s] INFO:colcon.colcon_core.shell:Creating package script '/root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/package.zsh'
+[29.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/adipu_ws/install/adipu_turtlesim_controller/share/colcon-core/packages/adipu_turtlesim_controller)
+[29.480s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.480s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.480s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[29.481s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.524s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[29.524s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.525s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.525s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.528s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[29.528s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/adipu_ws/install/local_setup.ps1'
+[29.530s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/adipu_ws/install/_local_setup_util_ps1.py'
+[29.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/adipu_ws/install/setup.ps1'
+[29.624s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/adipu_ws/install/local_setup.sh'
+[29.624s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/adipu_ws/install/_local_setup_util_sh.py'
+[29.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/adipu_ws/install/setup.sh'
+[29.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/adipu_ws/install/local_setup.bash'
+[29.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/adipu_ws/install/setup.bash'
+[29.899s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/adipu_ws/install/local_setup.zsh'
+[29.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/adipu_ws/install/setup.zsh'

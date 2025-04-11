@@ -1,0 +1,1 @@
+/root/adipu_ws/build/adipu_msg/ament_cmake_core/adipu_msgConfig.cmake

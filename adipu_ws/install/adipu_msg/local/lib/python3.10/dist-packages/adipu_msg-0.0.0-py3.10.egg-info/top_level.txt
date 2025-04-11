@@ -1,0 +1,1 @@
+/root/adipu_ws/build/adipu_msg/ament_cmake_python/adipu_msg/adipu_msg.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+[console_scripts]
+chaser_flipper_node = adipu_turtlesim_controller.turtle2_flipper:main
+chaser_node = adipu_turtlesim_controller.turtle1_chaser:main
+mouse_follow_node = adipu_turtlesim_controller.mouse_follower:main
+

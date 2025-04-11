@@ -1,0 +1,1 @@
+/root/adipu_ws/build/adipu_turtlesim_controller/rosidl_typesupport_fastrtps_c/adipu_turtlesim_controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

@@ -1,0 +1,15 @@
+source;share/adipu_turtlesim_controller/hook/cmake_prefix_path.ps1
+source;share/adipu_turtlesim_controller/hook/cmake_prefix_path.dsv
+source;share/adipu_turtlesim_controller/hook/cmake_prefix_path.sh
+source;share/adipu_turtlesim_controller/hook/ld_library_path_lib.ps1
+source;share/adipu_turtlesim_controller/hook/ld_library_path_lib.dsv
+source;share/adipu_turtlesim_controller/hook/ld_library_path_lib.sh
+source;share/adipu_turtlesim_controller/hook/pythonpath.ps1
+source;share/adipu_turtlesim_controller/hook/pythonpath.dsv
+source;share/adipu_turtlesim_controller/hook/pythonpath.sh
+source;share/adipu_turtlesim_controller/hook/ament_prefix_path.ps1
+source;share/adipu_turtlesim_controller/hook/ament_prefix_path.dsv
+source;share/adipu_turtlesim_controller/hook/ament_prefix_path.sh
+source;../../build/adipu_turtlesim_controller/share/adipu_turtlesim_controller/hook/pythonpath_develop.ps1
+source;../../build/adipu_turtlesim_controller/share/adipu_turtlesim_controller/hook/pythonpath_develop.dsv
+source;../../build/adipu_turtlesim_controller/share/adipu_turtlesim_controller/hook/pythonpath_develop.sh

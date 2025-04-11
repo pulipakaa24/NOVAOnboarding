@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "adipu_turtlesim_controller__py",
+		"source" : "/root/adipu_ws/build/adipu_turtlesim_controller/adipu_turtlesim_controller__py"
+	}
+}

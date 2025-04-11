@@ -1,0 +1,1 @@
+/root/adipu_ws/build/adipu_msg/rosidl_typesupport_fastrtps_c/adipu_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

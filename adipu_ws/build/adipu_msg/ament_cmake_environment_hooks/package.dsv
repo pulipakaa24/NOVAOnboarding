@@ -1,0 +1,4 @@
+source;share/adipu_msg/local_setup.bash
+source;share/adipu_msg/local_setup.dsv
+source;share/adipu_msg/local_setup.sh
+source;share/adipu_msg/local_setup.zsh

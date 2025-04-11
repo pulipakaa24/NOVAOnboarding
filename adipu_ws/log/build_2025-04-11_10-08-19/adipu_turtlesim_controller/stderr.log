@@ -1,0 +1,24 @@
+[31mCMake Error at /root/ros2_humble/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_python_install_package.cmake:106 (add_custom_target):
+  add_custom_target cannot create target
+  "ament_cmake_python_symlink_adipu_turtlesim_controller" because another
+  target with the same name already exists.  The existing target is a custom
+  target created in source directory
+  "/root/adipu_ws/src/adipu_turtlesim_controller".  See documentation for
+  policy CMP0002 for more details.
+Call Stack (most recent call first):
+  /root/ros2_humble/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  CMakeLists.txt:18 (ament_python_install_package)
+
+[0m
+[31mCMake Error at /root/ros2_humble/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_python_install_package.cmake:141 (add_custom_target):
+  add_custom_target cannot create target
+  "ament_cmake_python_build_adipu_turtlesim_controller_egg" because another
+  target with the same name already exists.  The existing target is a custom
+  target created in source directory
+  "/root/adipu_ws/src/adipu_turtlesim_controller".  See documentation for
+  policy CMP0002 for more details.
+Call Stack (most recent call first):
+  /root/ros2_humble/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  CMakeLists.txt:18 (ament_python_install_package)
+
+[0m

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/adipu_ws/build/adipu_msg/rosidl_generator_py/adipu_msg/adipu_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "adipu_msg__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/adipu_msg")

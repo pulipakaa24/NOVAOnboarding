@@ -1,0 +1,1 @@
+/root/adipu_ws/build/adipu_turtlesim_controller/ament_cmake_environment_hooks/local_setup.bash

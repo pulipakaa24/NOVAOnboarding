@@ -1,0 +1,186 @@
+-- Found rosidl_default_generators: 1.2.0 (/root/ros2_humble/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_core: 1.3.11 (/root/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 3.1.6 (/root/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found ament_cmake_ros: 0.10.0 (/root/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found python_cmake_module: 0.10.0 (/root/ros2_humble/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/adipu_ws/build/adipu_turtlesim_controller
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target ament_cmake_python_symlink_adipu_turtlesim_controller
+[  6%] Built target adipu_turtlesim_controller__cpp
+[  9%] [32mBuilding C object CMakeFiles/adipu_turtlesim_controller__rosidl_generator_c.dir/rosidl_generator_c/adipu_turtlesim_controller/msg/detail/flip__functions.c.o[0m
+running egg_info
+creating adipu_turtlesim_controller.egg-info
+writing adipu_turtlesim_controller.egg-info/PKG-INFO
+writing dependency_links to adipu_turtlesim_controller.egg-info/dependency_links.txt
+writing top-level names to adipu_turtlesim_controller.egg-info/top_level.txt
+writing manifest file 'adipu_turtlesim_controller.egg-info/SOURCES.txt'
+reading manifest file 'adipu_turtlesim_controller.egg-info/SOURCES.txt'
+writing manifest file 'adipu_turtlesim_controller.egg-info/SOURCES.txt'
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 22%] [32m[1mLinking C shared library libadipu_turtlesim_controller__rosidl_generator_c.so[0m
+[ 22%] Built target ament_cmake_python_build_adipu_turtlesim_controller_egg
+[ 25%] [32mBuilding CXX object CMakeFiles/adipu_turtlesim_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/adipu_turtlesim_controller/msg/flip__type_support.cpp.o[0m
+[ 25%] Built target adipu_turtlesim_controller__rosidl_generator_c
+[ 29%] [32mBuilding CXX object CMakeFiles/adipu_turtlesim_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/adipu_turtlesim_controller/msg/detail/flip__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/adipu_turtlesim_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/adipu_turtlesim_controller/msg/detail/dds_fastrtps/flip__type_support.cpp.o[0m
+[ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 45%] [32m[1mLinking CXX shared library libadipu_turtlesim_controller__rosidl_typesupport_cpp.so[0m
+[ 48%] [32m[1mLinking CXX shared library libadipu_turtlesim_controller__rosidl_typesupport_introspection_cpp.so[0m
+[ 51%] [32m[1mLinking CXX shared library libadipu_turtlesim_controller__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/adipu_turtlesim_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/adipu_turtlesim_controller/msg/flip__type_support.cpp.o[0m
+[ 54%] Built target adipu_turtlesim_controller__rosidl_typesupport_cpp
+[ 58%] [32mBuilding C object CMakeFiles/adipu_turtlesim_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/adipu_turtlesim_controller/msg/detail/flip__type_support.c.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/adipu_turtlesim_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/adipu_turtlesim_controller/msg/detail/flip__type_support_c.cpp.o[0m
+[ 61%] Built target adipu_turtlesim_controller__rosidl_typesupport_introspection_cpp
+[ 61%] Built target adipu_turtlesim_controller__rosidl_typesupport_fastrtps_cpp
+[ 64%] [32m[1mLinking CXX shared library libadipu_turtlesim_controller__rosidl_typesupport_c.so[0m
+[ 67%] [32m[1mLinking C shared library libadipu_turtlesim_controller__rosidl_typesupport_introspection_c.so[0m
+[ 70%] [32m[1mLinking CXX shared library libadipu_turtlesim_controller__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target adipu_turtlesim_controller__rosidl_typesupport_c
+[ 70%] Built target adipu_turtlesim_controller__rosidl_typesupport_introspection_c
+[ 70%] Built target adipu_turtlesim_controller__rosidl_typesupport_fastrtps_c
+[ 70%] Built target adipu_turtlesim_controller
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target adipu_turtlesim_controller__py
+[ 77%] [32mBuilding C object CMakeFiles/adipu_turtlesim_controller__rosidl_generator_py.dir/rosidl_generator_py/adipu_turtlesim_controller/msg/_flip_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/adipu_turtlesim_controller/libadipu_turtlesim_controller__rosidl_generator_py.so[0m
+[ 80%] Built target adipu_turtlesim_controller__rosidl_generator_py
+[ 90%] [32mBuilding C object CMakeFiles/adipu_turtlesim_controller__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/adipu_turtlesim_controller/_adipu_turtlesim_controller_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/adipu_turtlesim_controller__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/adipu_turtlesim_controller/_adipu_turtlesim_controller_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/adipu_turtlesim_controller__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/adipu_turtlesim_controller/_adipu_turtlesim_controller_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/adipu_turtlesim_controller/adipu_turtlesim_controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/adipu_turtlesim_controller/adipu_turtlesim_controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/adipu_turtlesim_controller/adipu_turtlesim_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] Built target adipu_turtlesim_controller__rosidl_typesupport_c__pyext
+[100%] Built target adipu_turtlesim_controller__rosidl_typesupport_introspection_c__pyext
+[100%] Built target adipu_turtlesim_controller__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/ament_index/resource_index/rosidl_interfaces/adipu_turtlesim_controller
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/detail/flip__functions.h
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/detail/flip__struct.h
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/detail/flip__type_support.h
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/flip.h
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/environment/library_path.sh
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/environment/library_path.dsv
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/detail/flip__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/detail/flip__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/detail/flip__builder.hpp
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/detail/flip__struct.hpp
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/detail/flip__traits.hpp
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/detail/flip__type_support.hpp
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/flip.hpp
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/detail/flip__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/detail/flip__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/include/adipu_turtlesim_controller/adipu_turtlesim_controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/environment/pythonpath.sh
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/environment/pythonpath.dsv
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/__init__.py
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/_adipu_turtlesim_controller_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/_adipu_turtlesim_controller_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/_adipu_turtlesim_controller_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/adipu_turtlesim_controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/adipu_turtlesim_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/adipu_turtlesim_controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/libadipu_turtlesim_controller__rosidl_generator_py.so
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/msg/__init__.py
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/msg/_flip.py
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/msg/_flip_s.c
+-- Up-to-date symlink: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/adipu_turtlesim_controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/adipu_turtlesim_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/adipu_turtlesim_controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/msg/Flip.idl
+-- Up-to-date symlink: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/msg/Flip.msg
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/ament_index/resource_index/package_run_dependencies/adipu_turtlesim_controller
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/ament_index/resource_index/parent_prefix_path/adipu_turtlesim_controller
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/environment/ament_prefix_path.sh
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/environment/path.sh
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/environment/path.dsv
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/local_setup.bash
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/local_setup.sh
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/local_setup.zsh
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/local_setup.dsv
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/package.dsv
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/ament_index/resource_index/packages/adipu_turtlesim_controller
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/adipu_turtlesim_controllerConfig.cmake
+-- Symlinking: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/adipu_turtlesim_controllerConfig-version.cmake
+-- Up-to-date symlink: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/package.xml
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_generator_c.so
+-- Set runtime path of "/root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_generator_c.so" to ""
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_c.so
+-- Set runtime path of "/root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_c.so" to ""
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_cpp.so
+-- Set runtime path of "/root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_typesupport_cpp.so" to ""
+Listing '/root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller'...
+Compiling '/root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/__init__.py'...
+Listing '/root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/msg'...
+Compiling '/root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/msg/__init__.py'...
+Compiling '/root/adipu_ws/install/adipu_turtlesim_controller/local/lib/python3.10/dist-packages/adipu_turtlesim_controller/msg/_flip.py'...
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_generator_py.so
+-- Set runtime path of "/root/adipu_ws/install/adipu_turtlesim_controller/lib/libadipu_turtlesim_controller__rosidl_generator_py.so" to ""
+-- Up-to-date: /root/adipu_ws/install/adipu_turtlesim_controller/lib/adipu_turtlesim_controller
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/adipu_turtlesim_controller/__init__.py
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/adipu_turtlesim_controller/mouse_follower.py
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/adipu_turtlesim_controller/__pycache__
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/adipu_turtlesim_controller/__pycache__/mouse_follower.cpython-310.pyc
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/adipu_turtlesim_controller/__pycache__/turtle2_flipper.cpython-310.pyc
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/adipu_turtlesim_controller/__pycache__/turtle1_chaser.cpython-310.pyc
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/adipu_turtlesim_controller/__pycache__/__init__.cpython-310.pyc
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/adipu_turtlesim_controller/turtle2_flipper.py
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/lib/adipu_turtlesim_controller/turtle1_chaser.py
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/export_adipu_turtlesim_controller__rosidl_generator_cExport.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/export_adipu_turtlesim_controller__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/adipu_turtlesim_controller__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/adipu_turtlesim_controller__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/export_adipu_turtlesim_controller__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/export_adipu_turtlesim_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/adipu_turtlesim_controller__rosidl_typesupport_cExport.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/adipu_turtlesim_controller__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/export_adipu_turtlesim_controller__rosidl_generator_cppExport.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/adipu_turtlesim_controller__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/adipu_turtlesim_controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/export_adipu_turtlesim_controller__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/export_adipu_turtlesim_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/adipu_turtlesim_controller__rosidl_typesupport_cppExport.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/adipu_turtlesim_controller__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/export_adipu_turtlesim_controller__rosidl_generator_pyExport.cmake
+-- Installing: /root/adipu_ws/install/adipu_turtlesim_controller/share/adipu_turtlesim_controller/cmake/export_adipu_turtlesim_controller__rosidl_generator_pyExport-noconfig.cmake

@@ -1,0 +1,1 @@
+/root/adipu_ws/build/adipu_msg/ament_cmake_environment_hooks/local_setup.zsh
