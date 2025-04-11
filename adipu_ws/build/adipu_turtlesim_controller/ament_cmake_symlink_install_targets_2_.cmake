@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/adipu_ws/build/adipu_turtlesim_controller/rosidl_generator_py/adipu_turtlesim_controller/adipu_turtlesim_controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "adipu_turtlesim_controller__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/adipu_turtlesim_controller")
