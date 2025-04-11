@@ -25,7 +25,7 @@ class Turtle1Controller(Node):
     self.cmdVelMsg=tk.StringVar()
     self.pause_resume_info = tk.StringVar()
     self.prStat = "PAUSE"
-    self.pause_resume_info.set(f"Click anywhere to {self.prStat} turtle1 control, right click to clear drawing")
+    self.pause_resume_info.set(f"Click here to {self.prStat} turtle1 control, right click to clear drawing")
     self.paused = False
     self.lin = 0.0
     self.ang = 0.0
@@ -77,7 +77,7 @@ class Turtle1Controller(Node):
   def pauseResume(self, event):
     self.paused = not self.paused
     self.prStat = "RESUME" if self.paused else "PAUSE"
-    self.pause_resume_info.set(f"Click anywhere to {self.prStat} turtle1 control, right click to clear drawing")
+    self.pause_resume_info.set(f"Click here to {self.prStat} turtle1 control, right click to clear drawing")
     msg = Twist()
     msg.linear.x = 0.0
     msg.angular.z = 0.0
