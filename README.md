@@ -1,5 +1,5 @@
 # NOVAOnboarding
-Onboarding for UTD Nova Lab. Demo: https://youtu.be/Avia9JZHDv0
+Onboarding for UTD Nova Lab. Demo: https://youtu.be/Avia9JZHDv0 (note: the message on the controller window has been changed to _click here_ instead of _click anywhere_)
 
 ## Procedure
 ### Container Setup
