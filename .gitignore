@@ -7,3 +7,7 @@ __pycache__/
 .ros/
 .ssh/
 .DS_Store
+
+adipu_ws/build/
+adipu_ws/log/
+adipu_ws/install/
